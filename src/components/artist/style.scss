@@ -1,0 +1,435 @@
+.artist {
+
+    margin: 90px 0px 30px;
+  
+    &-back {
+      margin: 10px 0px 70px;
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      align-items: center;
+      max-width: 1440px;
+      max-height: 390px;
+      min-width: 340px;
+      min-height: 250px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position-x: center;
+      background-position-y: center;
+      background-image: url(../../assets/bacraund.svg);
+      border-bottom: 2px solid blue;
+      position: relative;
+      z-index: -1;
+  
+      .artist-img {
+        position: absolute;
+        bottom: -20%;
+        z-index: -1;
+      }
+    }
+  
+    .animakid {
+      .animakid-control {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+      }
+  
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      min-height: 360px;
+  
+      //   border: 2px solid;
+      &-title {
+        color: white;
+        font-size: 35px;
+        font-weight: 600;
+      }
+  
+      &-button {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+  
+        .animakid-button1 {
+          width: 100%;
+          height: 56px;
+          border: none;
+          cursor: pointer;
+          border-radius: 20px;
+          background-color: #A259FF;
+          color: white;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          align-items: center;
+  
+        }
+  
+        .animakid-button2 {
+          width: 100%;
+          height: 56px;
+          border: 2px solid #A259FF;
+          cursor: pointer;
+          border-radius: 20px;
+          background-color: inherit;
+          color: white;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          align-items: center;
+  
+          i {
+            color: #A259FF;
+          }
+  
+        }
+      }
+  
+      &-number {
+        display: flex;
+        justify-content: space-between;
+  
+      }
+  
+      &-number-1 {
+        .number1 {
+          font-size: 28px;
+          font-weight: 700;
+          font-family: "Space Mono", monospace;
+          color: white;
+        }
+  
+        .number2 {
+          color: white;
+        }
+      }
+  
+      &-bio {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+  
+        .bio-dick {
+          color: white;
+        }
+  
+        img {
+          font-size: 16px;
+        }
+      }
+  
+      .bio-title {
+        color: #858584;
+      }
+    }
+  
+    .box-num {
+      width: 100%;
+      // border: 2px solid;
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0px;
+  
+      .box-num-itms {
+        margin: 0px auto;
+        max-width: 1440px;
+        max-height: 50px;
+        min-width: 350px;
+        min-height: 50px;
+        border: 2px solid;
+        padding: 10px 10px;
+      }
+  
+    }
+  
+    .non {
+      display: none;
+    }
+  }
+  
+  @media(min-width:768px) {
+    .artist {
+  
+      margin: 40px 0px;
+  
+      &-back {
+   
+        position: relative;
+        z-index: -1;
+  
+        .artist-img {
+          position: absolute;
+          bottom: -20%;
+          z-index: -1;
+          left: 72px;
+        }
+      }
+  
+      .animakid {
+        .animakid-control {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+  
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        min-height: 360px;
+  
+        //   border: 2px solid;
+        &-title {
+          color: white;
+          font-size: 35px;
+          font-weight: 600;
+        }
+  
+        &-button {
+          width: 70%;
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+  
+          .animakid-button1 {
+            width: 40%;
+            height: 56px;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+            background-color: #A259FF;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+  
+          }
+  
+          .animakid-button2 {
+            width: 30%;
+            height: 56px;
+            border: 2px solid #A259FF;
+            cursor: pointer;
+            border-radius: 20px;
+            background-color: inherit;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+  
+            i {
+              color: #A259FF;
+            }
+  
+          }
+        }
+  
+        &-number {
+          width: 58%;
+          display: flex;
+          justify-content: space-between;
+  
+        }
+  
+        &-number-1 {
+          .number1 {
+            font-size: 28px;
+            font-weight: 700;
+            font-family: "Space Mono", monospace;
+            color: white;
+          }
+  
+          .number2 {
+            color: white;
+          }
+        }
+  
+        &-bio {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+  
+          .bio-dick {
+            color: white;
+          }
+  
+          img {
+            font-size: 16px;
+          }
+        }
+  
+        .bio-title {
+          color: #858584;
+        }
+      }
+  
+      .box-num {
+        width: 100%;
+        // border: 2px solid;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px;
+  
+        .box-num-itms {
+          margin: 0px auto;
+          max-width: 1440px;
+          max-height: 100px;
+          min-width: 350px;
+          min-height: 50px;
+          border: 2px solid;
+          padding: 10px 10px;
+        }
+  
+      }
+  
+      .non {
+        display: none;
+      }
+    }
+  }
+  
+  @media(min-width:992px) {
+    .artist {
+  
+      margin: 40px 0px;
+  
+      &-back {
+        position: relative;
+        z-index: -1;
+  
+        .artist-img {
+          position: absolute;
+          z-index: -1;
+          bottom: -20%;
+          left: 72px;
+  
+        }
+      }
+  
+      .animakid {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        min-height:20px;
+  
+        //   border: 2px solid;
+        &-title {
+          color: white;
+          font-size: 35px;
+          font-weight: 600;
+        }
+  
+        &-button {
+          // border: 2px solid;
+          width: 50%;
+          height: 60px;
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+  
+          .animakid-button1 {
+            width: 40%;
+            height: 56px;
+            border: none;
+            cursor: pointer;
+            border-radius: 20px;
+            background-color: #A259FF;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+  
+          }
+  
+          .animakid-button2 {
+            width: 30%;
+            height: 56px;
+            border: 2px solid #A259FF;
+            cursor: pointer;
+            border-radius: 20px;
+            background-color: inherit;
+            color: white;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+  
+            i {
+              color: #A259FF;
+            }
+  
+          }
+        }
+  
+        &-number {
+          width: 80%;
+          height: 57px;
+          display: flex;
+          justify-content: space-between;
+  
+        }
+  
+        &-number-1 {
+          .number1 {
+            font-size: 28px;
+            font-weight: 700;
+            font-family: "Space Mono", monospace;
+            color: white;
+          }
+  
+          .number2 {
+            color: white;
+          }
+        }
+  
+        &-bio {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+  
+          .bio-dick {
+            color: white;
+          }
+  
+          img {
+            font-size: 16px;
+          }
+        }
+  
+        .bio-title {
+          color: #858584;
+        }
+  
+        .animakid-control {
+          width: 50%;
+        }
+      }
+  
+      .box-num {
+        width: 100%;
+        // border: 2px solid;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0px;
+  
+        .box-num-itms {
+          margin: 0px auto;
+          max-width: 1440px;
+          max-height: 100px;
+          min-width: 350px;
+          min-height: 50px;
+          // border: 2px solid;
+          padding: 10px 10px;
+        }
+  
+      }
+  
+      .hover {
+        display: none;
+      }
+    }
+  }

@@ -1,0 +1,122 @@
+.acaunt{
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    height: auto;
+    .acaunt-img{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 615px;
+        min-width: 315px;
+        .acaunt-img-1{
+            width: 100%;
+            object-fit: fill;
+            height: 100%;
+            max-height: 615px;
+            object-position: center;
+        }
+    }
+    .acaunt-text{
+        width: 100%;
+        padding: 20px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: left;
+        align-items: center;
+    }
+    .acaunt-user-text{
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      gap: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+
+        .acaunt-title{
+        color: white;
+        font-size: 38px;
+        font-weight: 600;
+        // margin: 0px auto;
+        width: 100%;
+    }
+    .acaunt-dics{
+        width: 100%;
+        color: white; 
+        font-weight: 600;
+        margin: 20px 0px;  
+    }
+
+    .form{
+        width: 100%;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        background: white;
+        border-radius: 20px;
+        padding: 20px ;
+
+        input{
+            background: transparent;
+            border: none;
+        }
+    }
+
+}
+@media(min-width:757px){
+    .acaunt{
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       max-height: 691px;
+       .acaunt-text{
+        padding: 0px;
+        width: 50%;
+        max-width:610px ;
+        max-height: 691px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    .acaunt-img{
+        width: 50%;
+        max-width:610px ;
+        max-height: 691px;
+    }
+.form{
+    max-width:330px ;
+}
+.acaunt-dics{
+    max-width: 330px;
+    display: flex;
+    justify-content: center;
+}
+.acaunt-user-text{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+    }
+    
+}
+@media (max-width:350px){
+.acaunt{
+    .acaunt-img{
+        max-height: 232px;
+       .acaunt-img-1{
+        width: 345px;
+        height: 232px;
+        object-fit: cover;
+       }
+    }
+}
+
+}

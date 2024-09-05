@@ -1,0 +1,65 @@
+.trending{
+    .trending-logo-title{
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .trending-logo-dect{
+        color: white;
+        font-weight: 400;
+        font-size: 17px;
+  } 
+  .box-logs{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin: 10px 0px 0px 0px;
+  }
+  .trending-box{
+    width: 100%;
+    margin: 40px 0px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+      .trending-box-itm{
+        width: 330px;
+        height: 525px;
+         .box-itms{
+            display: flex;
+            gap: 15px;
+         }
+         .box-bottom{
+            display: flex;
+            margin: 10px 0px;
+            gap: 10px;
+            h6{
+                color: white;
+                font-size: 15px;
+                font-weight: 400;
+            }
+         }
+
+      }
+}
+ .secont{
+    display: none;
+ }
+ .first{
+    display: none;
+ }
+}
+@media(min-width:853px){
+   .trending{
+    .first{
+        display: block;
+     }
+   }
+}
+@media(min-width:1200px){
+   .trending{
+    .secont{
+        display: block;
+     }
+   }
+}

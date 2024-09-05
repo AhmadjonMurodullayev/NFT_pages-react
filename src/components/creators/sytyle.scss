@@ -1,0 +1,187 @@
+.creators{
+    // width: 100%;
+    height: 100%;
+    .creators-bosh{
+        margin: 120px 0px;
+    }
+    .creators-logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px 0px;
+        .creators-text{
+            .creators-title{
+                color: white;
+                font-size: 32px;
+                font-weight: 600;
+            }
+            .creators-desc{
+                color: white;
+                font-size: 22px;
+                font-weight: 400;
+                margin: 10px 0px;
+            }
+        }
+        .creators-button{
+            button{
+                display: none;
+            }
+        }
+    }
+    .creators-box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+        margin: 0px auto;
+        .creators-box-itms.non{
+            display: none;
+        }
+
+        
+        button{
+            padding: 15px 30px;
+            border-radius: 15px;
+            border: 2px solid#A259FF;
+            background-color: inherit;
+            color: white;
+          
+        }
+         .creators-button-non{
+            display: block;
+         }
+
+         .creators-box-itms{
+            width: 330px;
+            height: 100px;
+            display: flex;
+            border-radius: 10px;
+            background-color: #3B3B3B;
+            text-align: center;
+            margin: 10px auto;
+            padding: 10px 0px;
+            .creators-pages-text{
+               color: white;
+               font-size: 22px;
+               font-weight: 600;
+               margin: 10px 0px 0px;
+            }
+           .creators-span{
+            display: flex;
+            margin: 10px 25px;
+            text-align: center;
+            gap: 10px;
+            .creators-tia{
+                color: #858584;
+                font-size: 16px;
+                font-weight: 400;
+            }
+            .creators-cloc{
+                color: white;
+                font-size: 16px;
+                font-weight: 400;
+            }
+           } 
+        }
+    }
+
+}
+@media(min-width:1200px){
+    .creators{
+        // width: 100%;
+        height: 100%;
+        .creators-bosh{
+            margin: 120px 0px;
+        }
+        .creators-logo{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0px 0px;
+            .creators-text{
+                .creators-title{
+                    color: white;
+                    font-size: 32px;
+                    font-weight: 600;
+                }
+                .creators-desc{
+                    color: white;
+                    font-size: 22px;
+                    font-weight: 400;
+                    margin: 10px 0px;
+                }
+            }
+            .creators-button{
+                button{
+                    padding: 15px 30px;
+                    border-radius: 15px;
+                    border: 2px solid#A259FF;
+                    background-color: inherit;
+                    color: white;
+                    display: block;
+                }
+            }
+        }
+        .creators-box{
+            display: flex;
+            // flex-wrap: wrap;
+            // flex-direction: column;
+            gap: 30px;
+            margin: 0px auto;
+            .creators-box-itms.non{
+                display: block;
+            }
+            .creators-button-non{
+                display: none;
+                margin:0px auto;
+                button{
+                    padding: 15px 30px;
+                    border-radius: 15px;
+                    border: 2px solid#A259FF;
+                    background-color: inherit;
+                    color: white;
+    
+                }
+            }
+             .creators-box-itms{
+                width: 240px;
+                height: 238px;
+                border-radius: 10px;
+                display: block;
+                background-color: #3B3B3B;
+                text-align: center;
+                justify-content: center;
+                padding: 20px 0px;
+                margin:0px auto;
+                img{
+                    margin: 0px auto;
+                }
+                .dis-non{
+                    display:block;
+                }
+                .creators-pages-text{
+                   color: white;
+                   font-size: 22px;
+                   font-weight: 600;
+                }
+               .creators-span{
+                display: flex;
+                margin: 10px 25px;
+                text-align: center;
+                gap: 10px;
+                .creators-tia{
+                    color: #858584;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                .creators-cloc{
+                    color: white;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+               } 
+            }
+        }
+    }
+}

@@ -1,0 +1,187 @@
+.hero{
+    .hero-pages22{
+        display: none;
+    }
+    .hero-pages2{
+        display: none;
+    }
+    .hero-pages1{
+        width: 100%;
+        margin: 90px auto;
+      
+      
+        .hero-title{
+            color: white;
+            font-size: 28px;
+            font-weight: 600;
+            width: 70%;
+        }
+        .hero-title2{
+            color: white;
+            font-size: 18px;
+            font-weight: 400;
+            margin: 20px 0px;
+        }
+        .hero-pages1-img{
+            width: 95%;
+            height: 70%;
+            border-radius: 20px;
+            background-color: 
+            #3B3B3B;
+            margin: 0px auto;
+            .img{
+                width: 100%;
+            }
+            .hero-p1{
+                color: white;
+                font-size: 22px;
+                font-weight: 600;
+                margin: 10px 20px;
+            
+            }
+            .hero-span{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                margin: 10px 20px;
+                .hero-p2{
+                    color: white;
+                   
+                }
+            }
+
+        }
+        .hero-button{
+            width: 100%;
+            padding: 20px 0px;
+            border-radius: 20px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            color: white;
+            background-color: #A259FF;
+            margin: 20px 0px;
+        }
+        .hero-number-nons{
+            width: 80% auto;
+            display: flex;
+           justify-content: space-between;
+            span{
+               .hero-bod-nons{
+                font-size: 28px;
+                font-weight: 700;
+                font-family:"Space Mono", monospace ;
+                color: white;
+               }
+               p{
+                color: white;
+                font-size: 16px;
+               }
+            }
+        }
+    }
+}
+@media (min-width:992px) {
+    .hero{
+        display: flex;
+        gap:30px;
+          .hero-pages22{
+            width: 50%;
+            // height: 40vh;
+            margin: 80px 0px;
+            display: block;
+            .hero-title22{
+                font-size: 57px;
+                font-weight: 600;
+                width: 90%;
+                color: white;
+            }
+            .hero-title2{
+                font-size: 22px;
+                font-weight: 400;
+                color: white;
+                width: 80%;
+                margin: 20px 0px;
+            }
+            #hero-button{
+                padding: 15px 30px;
+                border-radius: 18px;
+                border: none;
+                cursor: pointer;
+            background-color: #A259FF;
+            color: white;
+        
+            }
+            .hero-number{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 30px 0px;
+                span{
+                    width: 100%;
+                }
+                .spn{
+                    width: 40%;
+                }
+                p{
+                    color: white;
+                    font-size: 25px;
+                }
+                .hero-bod{
+                    color: white;
+                    font-family: "Space Mono", monospace;
+                }
+            }
+          }
+          .hero-pages2{
+            display: block;
+             width: 50%;
+             height: 70vh;
+             margin: 80px 0px;
+             background-color: 
+             #3B3B3B;
+             border-radius: 20px;
+             overflow: hidden;
+             .hero-pages-img{
+                width: 100%;
+                height: 80%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .hero-pages2-text{
+                margin: 5px 20px 0px ;
+                .hero-pages2-txt{
+                    font-size: 22px;
+                    font-weight: 600;
+                    color: white;
+                }
+            }
+            .hero-pages2-span{
+                display: flex;
+                gap: 10px;
+                margin: 5px 20px;
+                .mayda-text{
+                    color: white;
+                }
+            }
+          }
+          .button-non{
+               .hero-button-non{
+            display: none;
+               }
+          }
+          .hero-number-non{
+            span{
+                display:block ;
+            }
+    
+          }
+    }
+        .hero-pages1{
+            display: none;
+        }
+    }

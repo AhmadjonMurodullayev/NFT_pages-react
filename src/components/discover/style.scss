@@ -1,0 +1,95 @@
+.discover{
+
+    &-title{
+        font-size: 28px;
+        font-weight: 600;
+        color: #FFFF;
+        margin: 40px 0px 10px ;
+    }  
+    &-dict{
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFF;
+    }
+    &-box{
+        margin: 20px 0px;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+         .discover-box-itms{
+            width: 318px;
+            height: 390px;
+            background-color: #3B3B3B;
+            border-radius: 20px;
+            .discover-img{
+                width: 100%;
+            }
+         }
+    }
+    &-txt{
+        font-size: 22px;
+        color: #FFFF;
+        margin: 10px 20px;
+    }
+    &-title-span{
+        display: flex;
+        gap: 10px;
+        margin: 0px 20px;
+        p{
+            color: white;
+        }
+    }
+    &-text{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: space-between;
+        .color1{
+            color: 
+            #858584;
+        }
+        .color2{
+            
+         color: #FFFFFF;
+        }
+    }
+}
+@media(min-width:895px){
+    .discover{
+        &-title{
+            font-size: 40px;
+        }  
+        &-dict{
+            font-size: 25px;
+        }
+        &-box{
+              gap: 30px;
+             .discover-box-itms{
+                width: 370px;
+                height: 410px;
+             }
+             .forst{
+                display: none;
+             }
+        }
+    }
+}
+@media(min-width:1150px){
+    .discover{
+        &-title{
+            font-size: 40px;
+        }  
+        &-dict{
+            font-size: 25px;
+        }
+        &-box{
+              gap: 20px;
+             .discover-box-itms{
+                width: 330px;
+                height: 65vh;
+             }
+             .forst{
+                display: block;
+             }
+        }
+    }
+}

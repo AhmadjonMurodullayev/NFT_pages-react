@@ -1,0 +1,57 @@
+.more-from{
+    &-logo{
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    &-button{
+        button{
+            width: 100%;
+            height: 50px;
+            border-radius: 20px;
+            background-color: inherit;
+            color: white;
+            border: 2px solid #A259FF;
+        }
+    }
+   .forst{
+    display: none;
+}
+.men{
+    display: none;
+}
+.bord{
+    display: none;
+}
+}
+@media(min-width:768px){
+   .more-from{
+    &-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-box{
+        .forst{
+            display: block;
+        }
+    }
+    &-button{
+        button{
+            width: 170px;
+            height: 50px;
+           
+        }
+    }
+    .men{
+        display: block;
+    }
+   } 
+
+}
+@media(min-width:992px){
+    .more-from{
+        .bord{
+            display: block;
+        }
+    }
+}

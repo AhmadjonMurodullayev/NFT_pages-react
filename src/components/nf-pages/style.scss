@@ -1,0 +1,122 @@
+.ntf-pages{
+    margin: 75px 0px;
+    width: 100%;
+    .ntf-img{
+        max-height: 70vh;
+        max-width: 1460px;
+        width: 100%;
+        img{
+            object-fit: cover;
+        max-width: 1460px;
+             max-height:70vh;
+            width: 100%;
+        }
+    }
+    .ntf-text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    .nts-title{
+        color: white;
+            font-weight: 400;
+    }
+    }
+    .ntf-box{
+        display: flex;
+    }
+    .ntf-itms{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .ntf-logo{
+        color: white;
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .ntf-disc{
+        color:#858584;
+    }
+    .ntf-span{
+         display: flex;
+         align-items: center;
+         gap: 12px;
+       
+    }
+    .ntf-span{
+        color: white;
+        font-weight: 400;
+     }
+     .ntf-tags{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .tag-itms-title{
+            color: white;
+        }
+        .tags-itms1{
+            width: 150px;
+            height: 46px;
+            border-radius: 20px;
+            background-color: 
+            #3B3B3B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .tags-itms2{
+            width: 175px;
+            height: 45px;
+            border-radius: 20px;
+            background-color: 
+            #3B3B3B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .tags-itms3{
+            width: 110px;
+            height: 45px;
+            border-radius: 20px;
+            background-color: 
+            #3B3B3B;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+     }
+     .bloc{
+        display: none;
+    }
+}
+@media(min-width:768px){
+    .ntf-pages{
+        width: 100%;
+        .ntf-img{
+            width: 100%;
+        }
+        .ntf-text{
+            gap: 20px;
+            width: 60%;
+        }
+        .ntf-box{
+            justify-content: space-between;
+            display: flex;
+        }
+             .bloc{
+                
+            display: block;
+        }
+    }
+    .non{
+        display: none;
+    }
+}
+@media(min-width:992px){
+   .ntf-pages{
+    .ntf-tags{
+        flex-direction: row;
+    }
+   }
+}
