@@ -1,7 +1,7 @@
 import React from 'react';
 import avatars from '../../assets/avatars.svg';
 import icons from '../../assets/icons.svg';
-import './style.scss';
+import './style.scss';        
 
 const statistics = [
   { value: '250k+', label: 'Volume' },
