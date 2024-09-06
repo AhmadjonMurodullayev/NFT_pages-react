@@ -1,6 +1,6 @@
 import React from 'react';
 import rud from '../../assets/rud.svg';
-import icons from '../../assets/icons.svg';
+import link from '../../assets/link.svg';
 import './style.scss';        
 
 const statistics = [
@@ -38,7 +38,7 @@ const Index = () => {
           </div>
           <div className="links">
             <p className="bio-title">Links</p>
-            <img src={icons} alt="Social Media Icons" />
+            <img src={link} alt="Social Media Icons" />
           </div>
         </div>
         <div className="animakid-button non">
