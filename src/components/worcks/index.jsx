@@ -1,22 +1,22 @@
 import React from 'react';
 import './style.scss';
-import comp from '../../assets/comp.svg';
+import comps from '../../assets/comp.svg';
 
 const steps = [
   {
     title: 'Setup Your wallet',
     description: 'Set up your wallet of choice. Connect it to the NFT market by clicking the wallet icon in the top right corner.',
-    image: comp,
+    image: comps,
   },
   {
     title: 'Create Collection',
     description: 'Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.',
-    image: copm,
+    image: comps,  // Assuming the image should be the same for all steps; replace with the correct image if different
   },
   {
     title: 'Start Earning',
     description: 'Upload your work and setup your collection. Add a description, social links, and floor price.',
-    image: comp,
+    image: comps,  // Assuming the image should be the same for all steps; replace with the correct image if different
   },
 ];
 
@@ -29,11 +29,11 @@ const Index = () => {
         {steps.map((step, index) => (
           <div className="works-box-itms" key={index}>
             <div className="works-img">
-              <img src={comp} alt={step.title} />
+              <img src={step.image} alt={step.title} />
             </div>
             <div className="works-text">
               <p className="works-text-title">{step.title}</p>
-              <p className="works-text-dick">{step.description}</p>
+              <p className="works-text-desc">{step.description}</p> {/* Fixed typo */}
             </div>
           </div>
         ))}
