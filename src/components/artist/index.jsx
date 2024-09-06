@@ -1,5 +1,5 @@
 import React from 'react';
-import avatars from '../../assets/avatars.svg';
+import rud from '../../assets/rud.svg';
 import icons from '../../assets/icons.svg';
 import './style.scss';        
 
@@ -14,7 +14,7 @@ const Index = () => {
     <section className="artist">
       <div className="artist-back">
         <div className="artist-img">
-          <img src={avatars} alt="Artist Avatars" />
+          <img src={rud} alt="Artist Avatars" />
         </div>
       </div>
       <div className="animakid container">
