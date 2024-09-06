@@ -29,7 +29,7 @@ const Index = () => {
         {steps.map((step, index) => (
           <div className="works-box-itms" key={index}>
             <div className="works-img">
-              <img src={step.image} alt={step.title} />
+              <img src={icon} alt={step.title} />
             </div>
             <div className="works-text">
               <p className="works-text-title">{step.title}</p>
